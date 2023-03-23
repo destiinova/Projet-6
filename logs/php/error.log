@@ -1,0 +1,6 @@
+[12-Mar-2023 15:05:15 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Utilisateur\Desktop\WORDPRESS\Planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[12-Mar-2023 15:05:15 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Utilisateur\Desktop\WORDPRESS\Planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[12-Mar-2023 15:05:15 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Utilisateur\Desktop\WORDPRESS\Planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[12-Mar-2023 15:05:15 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Utilisateur\Desktop\WORDPRESS\Planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[12-Mar-2023 15:05:15 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Utilisateur\Desktop\WORDPRESS\Planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[23-Mar-2023 13:07:26 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
