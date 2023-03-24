@@ -10,6 +10,58 @@ Version: 2023.1678633515
 Updated: 2023-03-12 15:05:15
 
 */
+html{
+    font-family: 'syne';
+}
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #000;
+    }
+/*HEADER*/
+header img,
+header .headerTextContent {
+	position: absolute;
+	width: 201px;
+	height: 19px;
+	margin-top: 31px;
+}
+nav{
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+}
 
+nav li{
+    list-style-type: none; 
+    float : right;
+    padding: 48px 67px;
+} 
+a {
+	font-family:'syne';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19.2px;
+	text-decoration: none;
+	color: #000000;
+}
 
-
+/*FOOTER*/
+footer{
+    background: #ffffff;
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+}
