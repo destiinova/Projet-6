@@ -60,3 +60,31 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+/*HOME*/
+h1{
+    font-family: 'Syne', sans-serif; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+    display: flex;
+    text-align: center;
+}
+h2{
+    font-family: 'Syne', sans-serif; 
+    color: #326238;
+}
+h3{
+    font-family: 'Syne', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: #D2776A;
+}
+form{
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+}
