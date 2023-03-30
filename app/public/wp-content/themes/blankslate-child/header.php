@@ -16,7 +16,7 @@
     <header id="header" role="banner">
 
 
-    <div><img src="img/Logo.png" alt="Logo"></div>
+    <div><img src="logo.png" alt="Logo"></div>
 
 
         <div id="branding">
@@ -37,6 +37,6 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
 
 </nav>
-</header>
+    </header>
 <div id="container">
 <main id="content" role="main">
