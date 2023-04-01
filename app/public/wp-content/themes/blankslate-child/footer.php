@@ -1,9 +1,15 @@
 </main>
         </div>
                 <footer id="footer" role="contentinfo">
-                <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
-<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
-</nav>
+<?php
+ if ( has_nav_menu( 'footer-menu' ) ) : ?>
+ <?php 
+ wp_nav_menu ( array (
+ 'theme_location' => 'footer-menu' ,
+ 'menu_class' => 'my-footer-menu', // classe CSS pour customiser mon menu
+ ) ); ?>
+ <?php endif;
+ ?>
                 </footer>
         </div>
         <?php wp_footer(); ?>

@@ -22,3 +22,9 @@ endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+//ajouter une nouvelle zone de menu à mon thème
+function register_my_menu() {
+    register_nav_menu('footer-menu',__( 'Menu Footer' ));
+  }
+  add_action( 'init', 'register_my_menu' );

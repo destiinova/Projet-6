@@ -37,8 +37,7 @@ nav ul{
 }
 
 nav li{
-    list-style-type: none; 
-    float : right;
+    float: right;
     padding: 48px 67px;
 } 
 a {
@@ -51,6 +50,10 @@ a {
 	color: #000000;
 }
 
+nav li:last-child{
+    background: #DC9F96;
+}
+
 /*FOOTER*/
 footer{
     background: #ffffff;
@@ -59,6 +62,10 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+.my-footer-menu{
+    margin-top: 10px;
+   }
 
 /*HOME*/
 h1{
