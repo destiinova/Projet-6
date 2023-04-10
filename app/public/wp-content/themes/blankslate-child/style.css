@@ -26,7 +26,11 @@ header img,
 header .headerTextContent {
 	width: 201px;
 	height: 19px;
-	margin-top: 31px;
+}
+
+header{
+    display: block;
+    flex-wrap: wrap;
 }
 
 nav ul{
@@ -41,7 +45,7 @@ nav ul{
 
 nav li{
     float: right;
-    padding: 48px 67px;
+    padding: 30px 61px;
 } 
 a {
 	font-family:'syne';
@@ -81,49 +85,119 @@ h1{
     text-align: center;
 }
 h2{
-    font-family: 'Syne', sans-serif; 
-    color: #326238;
-}
-h3{
-    font-family: 'Syne', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 36px;
-    color: #D2776A;
-}
-form{
-    display: block;
-    text-align: center;
-    border-radius: 7px;
-}
-.wpcf7-submit{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-color: #E0B9B4;
-    border-radius: 5px;
-    font-family: 'Syne', sans-serif;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 15px;
-}
-.demi-colonne, .colonne{
-    float: left;
-	position: relative;
-    width: 100px;
+margin-bottom: 29px;
 }
 
-.rang-form {
-	width: 100%;
+/*CONTACT FORM 7*/
+h3{
+    margin-top: 30px;
 }
-#formulaire-responsive {
-	max-width:1400px /*-- à modifier en fonction de la largeur désirée --*/;
-	margin:0 auto;
-        width:100%;
+.deuxcolonnes{
+    display:flex; 
+    flex-direction:row;
+    column-gap: 69px;
+    justify-content:center;
+    flex-wrap:wrap; 
 }
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+.colonnes1 , .colonnes2 {
+    width:383px;
+}
+.benvoyer{
+    padding-left:55px
+}
+.commander, .benvoyer {
+    display:flex;
+    justify-content:center;
+}
+.commander {
+    padding-left: 70px;
+    padding-top: 30px;
+    height:75px;
+}
+input[type=submit]{
+    text-transform:none;
+    color: #FFFFFF;
+
+}
+
+.deuxcolonnes h2 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+}
+.border{
+    border-right: 1px solid #FFFFFF;
+}
+@media all and (min-width: 700px) and (max-width: 1200px) {
+    .deuxcolonnes{
+    display:flex; 
+    flex-direction:column;
+}
+    @media all and (min-width: 1100px){
+        .butoncommandes{
+
+            display:flex; 
+    flex-direction:column;
+    }
+}
+}
+.commanderr {
+    background-color: #DC9F96;
+    color:white !important;
+    font-weight: 700;
+}
+
+
+/*COMMANDE*/
+input{
+    padding: 15px;
+    border : 1px solid #f2f2f2;
+    width: 51px;
+    height: 56px;
+    border-radius: 5px 0px 0px 5px;
+    background: #FFFFFF;
+}
+
+.quantity{
+    display:flex;
+    width:31px;
+}
+.quantity input{
+    width:50px;
+    padding:.5em;
+    text-align:center;
+    font-weight:400;
+    background:#FFFFFF;
+    border:1px solid #FFFFFF;
+ }
+ 
+ .quantity input{
+    border-left:none;
+    border-right:none;
+ }
+.quantity input[type=number]::-webkit-inner-spin-button,
+.quantity input[type=number]::-webkit-outer-spin-button{
+   -webkit-appearance:none;
+}
+.btnminus1{
+    background:#DC9F96;
+    border-radius: 0px 5px 0px 0px;
+}
+.quantity button{
+    background:#DC9F96;
+    width: 31px;
+    padding:.5em;
+    font-weight:400;
+    border:1px solid #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+}
+.btnadd1{
+    background:#DC9F96;
+    border-radius: 0px 0px 5px 0px;
 }

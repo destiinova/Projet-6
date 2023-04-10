@@ -32,7 +32,8 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 </div>
 
     <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
-    <div><img src="logo.png" alt="Logo"></div>
+    <?php do_action( 'custom-header' ); ?>
+    <?php do_action( 'custom-logo' ); ?>
     <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
 
 </nav>

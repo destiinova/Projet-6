@@ -28,3 +28,29 @@ function register_my_menu() {
     register_nav_menu('footer-menu',__( 'Menu Footer' ));
   }
   add_action( 'init', 'register_my_menu' );
+
+
+add_theme_support(
+    'custom-header',
+    apply_filters(
+        'blankslate_custom_header_args',
+        array(
+            'width'       => 4000,
+            'height'      => 4000,
+            'flex-height' => true,
+        )
+    )
+);
+
+add_theme_support(
+    'custom-logo',
+    apply_filters(
+        'blankslate_logo_args',
+        array(
+            'height'      => 19,
+            'width'       => 201,
+            'flex-height' => true,
+            'flex-width'  => true,
+        )
+    )
+);

@@ -5,3 +5,59 @@
 [12-Mar-2023 15:05:15 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\Utilisateur\Desktop\WORDPRESS\Planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
 [23-Mar-2023 13:07:26 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
 [25-Mar-2023 08:30:48 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[09-Apr-2023 10:22:12 UTC] PHP Parse error:  syntax error, unexpected variable "$attachment_id", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:25:56 UTC] PHP Warning:  Undefined variable $size in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:25:56 UTC] PHP Warning:  Undefined variable $icon in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:25:56 UTC] PHP Warning:  Undefined variable $attr in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:29:48 UTC] PHP Parse error:  syntax error, unexpected variable "$attachment_id", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:31:14 UTC] PHP Parse error:  syntax error, unexpected variable "$attachment_id", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:34:56 UTC] PHP Parse error:  syntax error, unexpected variable "$attachment_id", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:37:17 UTC] PHP Parse error:  syntax error, unexpected token "...", expecting end of file in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:41:20 UTC] PHP Fatal error:  Cannot redeclare wp_get_attachment_image() (previously declared in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\media.php:1030) in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 34
+[09-Apr-2023 10:41:20 UTC] PHP Fatal error:  Cannot redeclare wp_get_attachment_image() (previously declared in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\media.php:1030) in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 34
+[09-Apr-2023 10:42:42 UTC] PHP Parse error:  syntax error, unexpected token "...", expecting end of file in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\header.php on line 35
+[09-Apr-2023 10:52:34 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php(1383): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php on line 1277
+[09-Apr-2023 10:57:41 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php(1383): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php on line 1277
+[09-Apr-2023 10:58:06 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php(1383): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php on line 1277
+[09-Apr-2023 10:59:24 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php(1383): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\includes\class-custom-image-header.php on line 1277
+[09-Apr-2023 11:01:15 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 50
+[09-Apr-2023 11:01:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 372
+[09-Apr-2023 11:01:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 373
+[09-Apr-2023 11:01:17 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 50
+[09-Apr-2023 11:01:17 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 50
+[09-Apr-2023 11:01:19 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 50
+[09-Apr-2023 11:01:19 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 50
+[10-Apr-2023 12:25:49 UTC] PHP Warning:  Undefined array key "uacf7_enable_form_styles" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\plugins\ultimate-addons-for-contact-form-7\addons\styler\uacf7style.php on line 402
+[10-Apr-2023 12:26:07 UTC] PHP Warning:  Undefined array key "uacf7_enable_form_styles" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\plugins\ultimate-addons-for-contact-form-7\addons\styler\uacf7style.php on line 402
