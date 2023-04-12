@@ -22,11 +22,10 @@ p{
     color: #000;
     }
 /*HEADER*/
-header img,
-header .headerTextContent {
-	width: 201px;
-	height: 19px;
-}
+.container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
 header{
     display: block;

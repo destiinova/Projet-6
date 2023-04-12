@@ -23,39 +23,39 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
+
+
+
+//header logo customizer
+function ajout_custoizer_section($wp_customize){
+    $wp_customize->add_section('header-logo-section',array(
+        'title'      => __('header logo', 'blankslate'),
+        'priority'   => 30,
+        'desciption' => 'ajout logo dans header'
+    ));
+}
+add_action('customize_register','ajout_customizer_section');
+
+//header logo champs
+function ajout_custoizer_champ($wp_customize){
+    $wp_customize->add_setting('header logo');
+    $wp_customize->add_control(new wp_customize_image_control($wp_customize, 'blanksate',
+array(
+    'label'      =>__('header logo', 'blankslate'),
+    'section'    => 'header_logo_section',
+    'settings'   => 'header_logo',
+)));
+}
+add_action('customize_register','ajout_customizer_champ');
+
 //ajouter une nouvelle zone de menu à mon thème
 function register_my_menu() {
     register_nav_menu('footer-menu',__( 'Menu Footer' ));
   }
   add_action( 'init', 'register_my_menu' );
 
-function theme_setup(){
-    add_theme_support(
-        'custom-header',
-        apply_filters(
-            'blankslate_custom_header_args',
-            array(
-                'width'       => 4000,
-                'height'      => 4000,
-                'flex-height' => true,
-            )
-        )
-    );
-    
-    add_theme_support(
-        'custom-logo',
-        apply_filters(
-            'blankslate_logo_args',
-            array(
-                'height'      => 19,
-                'width'       => 201,
-                'flex-height' => true,
-                'flex-width'  => true,
-            )
-        )
-    );
-}
-add_action('after_setup_theme','theme_setup');
+//image dans le header
+
 
 
 //HOOK

@@ -32,10 +32,14 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 </div>
 
     <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
-    <?php do_action( 'custom-header' ); ?>
-    <?php do_action( 'custom-logo' ); ?>
     <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
-
+    <?php
+if ( get_theme_mod( 'blankslate' ) ) : ?>
+<img src="<?php echo get_theme_mod( 'blankslate' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
+<?php 
+else : ?>
+<h1 class="planty"><?php bloginfo( 'name' ); ?></h1>
+<?php endif; ?>
 </nav>
     </header>
 <div id="container">

@@ -134,3 +134,83 @@ Stack trace:
 #10 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\index.php(17): require('C:\\Users\\Utilis...')
 #11 {main}
   thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 65
+[12-Apr-2023 19:24:09 UTC] PHP Parse error:  syntax error, unexpected token "&" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 32
+[12-Apr-2023 19:24:43 UTC] PHP Parse error:  syntax error, unexpected token "&" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 34
+[12-Apr-2023 19:24:43 UTC] PHP Parse error:  syntax error, unexpected token "&" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 34
+[12-Apr-2023 19:25:58 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 62
+[12-Apr-2023 19:25:58 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 62
+[12-Apr-2023 19:45:37 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_customize_image_controle", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:45:37 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_customize_image_controle", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:53:34 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_customize_image_controle", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:53:34 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_customize_image_controle", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:57:57 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_customize_image_controle", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:57:58 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_customize_image_controle", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:58:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "blanksate", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:58:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "blanksate", expecting ")" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 39
+[12-Apr-2023 19:58:58 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 45
+[12-Apr-2023 19:58:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 45
+[12-Apr-2023 20:00:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_customizer_section" not found or invalid function name in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-customize-manager.php(934): do_action('customize_regis...', Object(WP_Customize_Manager))
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->wp_loaded('')
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-settings.php(639): do_action('wp_loaded')
+#7 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-config.php(93): require_once('C:\\Users\\Utilis...')
+#8 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Utilis...')
+#9 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Utilis...')
+#10 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\Utilis...')
+#11 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php on line 308
+[12-Apr-2023 20:01:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_customizer_section" not found or invalid function name in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-customize-manager.php(934): do_action('customize_regis...', Object(WP_Customize_Manager))
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->wp_loaded('')
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-settings.php(639): do_action('wp_loaded')
+#7 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-config.php(93): require_once('C:\\Users\\Utilis...')
+#8 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Utilis...')
+#9 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Utilis...')
+#10 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\Utilis...')
+#11 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php on line 308
+[12-Apr-2023 20:03:03 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_customizer_section" not found or invalid function name in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-customize-manager.php(934): do_action('customize_regis...', Object(WP_Customize_Manager))
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->wp_loaded('')
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-settings.php(639): do_action('wp_loaded')
+#7 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-config.php(93): require_once('C:\\Users\\Utilis...')
+#8 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Utilis...')
+#9 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Utilis...')
+#10 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\Utilis...')
+#11 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-includes\class-wp-hook.php on line 308
+[12-Apr-2023 20:04:16 UTC] PHP Warning:  require(C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public/wp-content/themes/blankslate/inc/customizer.php): Failed to open stream: No such file or directory in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 31
+[12-Apr-2023 20:04:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public/wp-content/themes/blankslate/inc/customizer.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php:31
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-settings.php(585): include()
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-config.php(93): require_once('C:\\Users\\Utilis...')
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Utilis...')
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Utilis...')
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\index.php(17): require('C:\\Users\\Utilis...')
+#5 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 31
+[12-Apr-2023 20:04:17 UTC] PHP Warning:  require(C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public/wp-content/themes/blankslate/inc/customizer.php): Failed to open stream: No such file or directory in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 31
+[12-Apr-2023 20:04:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public/wp-content/themes/blankslate/inc/customizer.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php:31
+Stack trace:
+#0 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-settings.php(585): include()
+#1 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-config.php(93): require_once('C:\\Users\\Utilis...')
+#2 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-load.php(50): require_once('C:\\Users\\Utilis...')
+#3 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Utilis...')
+#4 C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\index.php(17): require('C:\\Users\\Utilis...')
+#5 {main}
+  thrown in C:\Users\Utilisateur\Desktop\WORDPRESS\planty\app\public\wp-content\themes\blankslate-child\functions.php on line 31
