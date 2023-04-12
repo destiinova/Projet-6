@@ -30,7 +30,6 @@ header .headerTextContent {
 
 header{
     display: block;
-    flex-wrap: wrap;
 }
 
 nav ul{
@@ -59,6 +58,10 @@ a {
 
 nav li:last-child{
     background: #DC9F96;
+}
+
+nav li:last-child a {
+    color: #FFFFFF !important;
 }
 
 /*FOOTER*/
@@ -164,14 +167,18 @@ input{
 .quantity{
     display:flex;
     width:31px;
+    height: 56px;
 }
 .quantity input{
-    width:50px;
+    width:51px;
     padding:.5em;
     text-align:center;
     font-weight:400;
     background:#FFFFFF;
     border:1px solid #FFFFFF;
+    height: 100%;
+    font-size: 16px;
+    line-height: 19px;
  }
  
  .quantity input{
@@ -184,20 +191,33 @@ input{
 }
 .btnminus1{
     background:#DC9F96;
-    border-radius: 0px 5px 0px 0px;
+    border-radius: 0px 0px 5px 0px;
+    font-size: 20px;
+    line-height: 24px;
 }
 .quantity button{
     background:#DC9F96;
+    border: #DC9F96;
     width: 31px;
     padding:.5em;
     font-weight:400;
-    border:1px solid #FFFFFF;
     display: flex;
     flex-direction: row-reverse;
-    text-align: center;
+    justify-content: center;
     align-items: center;
+    height: 50%;
+    color: #FFFFFF;
 }
 .btnadd1{
     background:#DC9F96;
-    border-radius: 0px 0px 5px 0px;
+    border-radius: 0px 5px 0px 0px;
+    border-bottom: 1px solid #FFFFFF !important;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.quantity .colonne{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }

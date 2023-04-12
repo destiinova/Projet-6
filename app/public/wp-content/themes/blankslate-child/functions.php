@@ -29,28 +29,45 @@ function register_my_menu() {
   }
   add_action( 'init', 'register_my_menu' );
 
-
-add_theme_support(
-    'custom-header',
-    apply_filters(
-        'blankslate_custom_header_args',
-        array(
-            'width'       => 4000,
-            'height'      => 4000,
-            'flex-height' => true,
+function theme_setup(){
+    add_theme_support(
+        'custom-header',
+        apply_filters(
+            'blankslate_custom_header_args',
+            array(
+                'width'       => 4000,
+                'height'      => 4000,
+                'flex-height' => true,
+            )
         )
-    )
-);
-
-add_theme_support(
-    'custom-logo',
-    apply_filters(
-        'blankslate_logo_args',
-        array(
-            'height'      => 19,
-            'width'       => 201,
-            'flex-height' => true,
-            'flex-width'  => true,
+    );
+    
+    add_theme_support(
+        'custom-logo',
+        apply_filters(
+            'blankslate_logo_args',
+            array(
+                'height'      => 19,
+                'width'       => 201,
+                'flex-height' => true,
+                'flex-width'  => true,
+            )
         )
-    )
-);
+    );
+}
+add_action('after_setup_theme','theme_setup');
+
+
+//HOOK
+/*
+function add_admin_link($items, $args) {
+    if( $args->theme_location == 'main-menu' ){
+        $items .= '<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50">'
+        . '<a href="http://planty.local/admin_url( '/' ).'
+        . '<itemprop="url"><span itemprop="name">Admin</span></a>'
+        . '</li>';
+    }
+  return $items;
+}
+add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
+*/
